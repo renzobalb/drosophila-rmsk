@@ -27,13 +27,18 @@ RepeatMasker -pa 1 -species drosophila -xsmall -poly -gff $chunk
 
 ##Notes
 
-1. Details of RepeatMasker run
+1. Details of RepeatMasker run:
+
 ###RepeatMasker version development-$Id: RepeatMasker,v 1.332 2017/04/17 19:01:11 rhubley Exp $
+
 ###Search Engine: NCBI/RMBLAST [ 2.2.27+ ]
+
 ###Master RepeatMasker Database: /short/te53/software/repeatmasker/4.0.8/RepeatMasker/Libraries/RepeatMaskerLib.embl ( Complete Database: dc20181026-rb20181026 )
+
 ###RepeatMasker also uses the Dfam consensus database in its run
 
-2. BED file format (tab-separated)
+2. BED file format (tab-separated):
+
 #Contig name  #Contig_start_position  #Contig_end_position  #Combined_RepeatMasker_Output*  #Perc_div_score  #Strand
 
 *Note: Output from RepeatMasker was merged by ';' in the fourth column (commonly 'Name' column) to retain annotation information in the bed file. 
